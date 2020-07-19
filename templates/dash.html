@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Hello {{user.name}}</h1>
+
+        <h2>Guilds list</h2>
+        <ul>
+        {% for guild in guilds %}
+            <li>{{ guild }}</li>
+        {% endfor %}  
+        </ul>
+    </body>
+</html>
